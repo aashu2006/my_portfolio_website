@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header style="background-color: darkblue">
+      <br />
+      <center><h1 class="h1">My Portfolio Website</h1></center>
+      <br /><br />
+      <div id="section">
+  <center>
+    <span>&nbsp;&nbsp;&nbsp;<a href="#about">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <span><a href="#skills">Skills</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <span><a href="#projects">Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <span><a href="#contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </center>
+</div>
+
+      <br /><br />
+      </div>
+    </header>
+  </br>
+    <h2 id="about"class="section1"><u>About Me</u></h2>
+    <br />
+    <p>
+      Hello! My name is
+      <span style="color: red; font-weight: bold">Akshat Patil</span>. I am
+      learning
+      <span style="font-weight: bold">HTML</span>
+      and CSS.
+    </p>
+    <img id="image" width="175px" src="profile.png" alt="unknown" />
+    <br /><br />
+    <h2 id="skills"class="section1"><u>My Skills</u></h2>
+    <br />
+    <ul type="square">
+      <li>HTML Basics</li>
+      <li>CSS Styling</li>
+      <li>Javascript (Coming Soon)</li>
+    </ul>
+    <br /><br />
+
+    <h2 id="projects"class="section1"><u>My Projects</u></h2>
+    <br /><br />
+    <table class="table1" border="1">
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Technology</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Portfolio Website</td>
+          <td>HTML, CSS</td>
+          <td>Completed</td>
+        </tr>
+        <tr>
+          <td>Calculator</td>
+          <td>Javascript</td>
+          <td>In Progress</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br />
+    <h2 class="section1"><u>Media Examples</u></h2>
+    <br />
+    <p>Image, Video, Audio, and Iframe:</p>
+    <br />
+    <img
+      width="200px"
+      src="photo-1603320045158-61d0dc0fbb33.jpeg"
+      alt="image"
+    />
+    <br /><br />
+    <video width="200px" controls>
+      <source src="video.mp4" type="video/mp4" />
+    </video>
+    <br /><br />
+    <audio controls>
+      <source src="audio.mp3" type="audio/mp3" />
+    </audio>
+    <br /><br />
+    <h2 id="contact"class="section1"><u>Contact me</u></h2>
+    <br />
+    <form action="backend.js" method="post">
+      <label>Name:</label>
+      <input type="text" name="username" />
+      <br /><br />
+      <label>Email:</label>
+      <input type="email" />
+      <br /><br />
+      <label>Phone no:</label>
+      <input type="number" />
+      <br /><br />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+    <br /><br />
+    <footer style="background-color: grey">
+      <h2><center>Thank You</center></h2>
+    </footer>
+  </body>
+</html>

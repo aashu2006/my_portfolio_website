@@ -1,0 +1,41 @@
+*{
+    padding-top:0;
+    margin:0;
+    margin:0;
+    
+}
+
+.h1{
+    background-color:darkblue;
+    color: white;
+}
+
+.span{
+    background-color: darkblue;
+}
+
+#section{
+    background-color: darkblue;
+    color:yellow;
+}
+
+.section1{
+    color:darkgreen;
+    font-weight:bolder;
+}
+
+#image{
+    height: 150px;
+    margin-top: 20px;
+    margin-left:15px;
+}
+
+.table1{
+    table-layout:unset;
+    margin-top:10px;
+}
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
