@@ -1,8 +1,6 @@
 *{
     padding-top:0;
     margin:0;
-    margin:0;
-    
 }
 
 .h1{
@@ -34,8 +32,10 @@
     table-layout:unset;
     margin-top:10px;
 }
+
 a {
   color: yellow;
   text-decoration: none;
 }
+
 
